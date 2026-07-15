@@ -4,7 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imágenes en html</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #a3da256b, #5b1bd36b, #06a8646b);
+
+        }
+        h1 {
+            color: #cc2709;
+            margin-top: 20px;
+            
+        }
+   
+        
+
+         img {
+            width: 250px;
+            height: 250px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 2px solid #52df71;
+        }
+        .galeria {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .tarjeta{
+            width: 280px;
+            padding: 15px;
+            border: 1px solid #e95454;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .tarjeta img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .tarjeta img:hover{
+            transform: scale(1.05);
+            transition: 0.3s;
+
+        }
+    </style>
 </head>
 <body>
     <h1>Mi galería de productos</h1>
@@ -16,21 +62,21 @@
             un pequeño riachuelo y una carretera en primer plano.</p>
         </div>
         <div class="tarjeta">
-            <img src="imagenes/montaña1.jfif" alt="montaña1">
+            <img src="montaña1.jfif" alt="montaña1">
             <h3>El Despertar del Gigante de Granito</h3>
             <p> El agua fluye con fuerza eterna entre rocas oscuras, 
                 mientras la luz del amanecer corona de nubes las imponentes 
                 cumbres de la Patagonia, creando un santuario de paz salvaje.</p>
         </div>
          <div class="tarjeta">
-            <img src="imagenes/montaña2.jfif" alt="montaña2">
+            <img src="montaña2.jfif" alt="montaña2">
             <h3>El Refugio Secreto de las Highlands</h3>
             <p>Cascadas de agua mística fluyen suavemente hacia pozas cristalinas, 
                 cobijadas por montañas de tonos púrpuras y un cielo nublado 
                 que evoca las leyendas celtas más antiguas de la Isla de Skye.</p>
         </div>
          <div class="tarjeta">
-            <img src="imagenes/montaña4.webp" alt="montaña4">
+            <img src="montaña4.webp" alt="montaña4">
             <h3>El Despertar de la Tundra </h3>
             <p>  Descripción: La delicadeza de la flora silvestre se encuentra con 
                 la inmensidad de la tierra salvaje, creando un rincón de paz eterna donde 
